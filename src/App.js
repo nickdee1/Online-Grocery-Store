@@ -1,24 +1,21 @@
 import React from 'react';
-import logo from './logo.svg';
+import Header from "./Header";
 import './App.css';
+import Subheader from "./components/Subheader";
+import Item from "./components/Item";
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <Header/>
+      <Subheader/>
+
+      <h1 style={{paddingLeft: "20px", marginTop: "20px", marginBottom: "10px"}}>Category</h1>
+
+      <div class="app">
+        <Item/>
+      </div>
+
     </div>
   );
 }
