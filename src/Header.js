@@ -1,4 +1,6 @@
 import React from "react"
+import "./Header.css"
+
 
 function Header() {
     return(
@@ -7,9 +9,18 @@ function Header() {
                 <h3 style={{color: "white"}}>Grocery Store</h3>
             </div>
 
-            <div style={{alignSelf: "center", width: "50%"}}>
-                <button style={{float: "right", borderStyle: "none", fontSize: "18px", color: "white", backgroundColor: "#649d66"}}>Profile</button>
-                <button style={{float: "right", borderStyle: "none", fontSize: "18px", color: "white", backgroundColor: "#649d66", paddingRight: "20px"}}>Cart</button>
+            <div className="dropdown">
+                <button className="header-button">
+                    Cart
+                </button>
+
+                <button className="header-button">
+                    Profile
+                    <div className="dropdown-content">
+                        <a href="#">Register</a>
+                        <a href="#">Log in</a>
+                    </div>
+                </button>
             </div>
         </div>
 
