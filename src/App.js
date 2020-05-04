@@ -13,7 +13,8 @@ function App() {
       <h1 style={{paddingLeft: "20px", marginTop: "20px", marginBottom: "10px"}}>Category</h1>
 
       <div class="app">
-        <Item/>
+        <Item itemName="Meat" price="200"/>
+        <Item itemName="Bread" price="18"/>
       </div>
 
     </div>

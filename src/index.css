@@ -43,11 +43,20 @@ code {
 .app {
   padding-left: 20px;
   padding-right: 20px;
+  height: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
 }
 
 .item {
   height: 300px;
   width: 200px;
   border-radius: 6px;
+  display: flex;
+  flex-direction: column;
   background-color: #ededed;
+  overflow: hidden;
+  margin-right: 20px;
+  margin-bottom: 40px;
 }
