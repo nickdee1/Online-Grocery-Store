@@ -1,5 +1,4 @@
 import React from "react"
-import Cart from "./components/Cart/Cart";
 import "./Header.css"
 import { Button } from 'reactstrap';
 import {Link} from "react-router-dom";
