@@ -17,11 +17,13 @@ function App() {
         <Router>
             <Header/>
             <Subheader/>
-              <Route path='/cart' component={Cart}/>
-              <Route path='/categories/meat' component={MeatCategory}/>
-              <Route path='/categories/bakery' component={BakeryCategory}/>
-              <Route path='/categories/green' component={GreenCategory}/>
-              <Route path='/categories/drinks' component={DrinksCategory}/>
+            <Switch>
+                  <Route path='/cart' component={Cart}/>
+                  <Route path='/categories/meat' component={MeatCategory}/>
+                  <Route path='/categories/bakery' component={BakeryCategory}/>
+                  <Route path='/categories/green' component={GreenCategory}/>
+                  <Route path='/categories/drinks' component={DrinksCategory}/>
+            </Switch>
         </Router>
     </div>
   );

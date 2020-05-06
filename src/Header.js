@@ -2,7 +2,7 @@ import React from "react"
 import Cart from "./components/Cart/Cart";
 import "./Header.css"
 import { Button } from 'reactstrap';
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+import {Link} from "react-router-dom";
 
 
 function Header() {
@@ -13,12 +13,10 @@ function Header() {
             </div>
 
             <div className="dropdown">
-                <Router>
-                    <Button className="header-button">
-                        Cart
-                    </Button>
-                </Router>
 
+                <Link to='/cart'>
+                    <Button className="header-button">Cart</Button>
+                </Link>
 
                 <button className="header-button">
                     Profile
