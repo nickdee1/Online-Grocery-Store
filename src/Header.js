@@ -1,5 +1,8 @@
 import React from "react"
+import Cart from "./components/Cart/Cart";
 import "./Header.css"
+import { Button } from 'reactstrap';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 
 function Header() {
@@ -10,9 +13,16 @@ function Header() {
             </div>
 
             <div className="dropdown">
-                <button className="header-button">
-                    Cart
-                </button>
+                <Router>
+                    <Button
+                        className="header-button">
+                        Cart
+                        <Router>
+                            <Route exact path='/cart' component={Cart}/>
+                        </Router>
+                    </Button>
+                </Router>
+
 
                 <button className="header-button">
                     Profile
