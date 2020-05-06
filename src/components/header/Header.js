@@ -20,8 +20,15 @@ function Header() {
                 <button className="header-button">
                     Profile
                     <div className="dropdown-content">
-                        <a href="#">Register</a>
-                        <a href="#">Log in</a>
+
+                        <Link to='/register'>
+                            <a href="#">Register</a>
+                        </Link>
+
+                        <Link to='/login'>
+                            <a href="#">Log in</a>
+                        </Link>
+
                     </div>
                 </button>
             </div>

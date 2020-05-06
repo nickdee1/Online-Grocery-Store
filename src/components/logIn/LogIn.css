@@ -1,0 +1,28 @@
+.login {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+form {
+    margin-bottom: 20px;
+}
+
+.input-field {
+    height: 40px;
+    width: 300px;
+    font-size: 18px;
+}
+
+
+.login-button {
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    border-radius: 12px;
+    background-color: #649d66;
+    font-size: 18px;
+    color: white;
+}

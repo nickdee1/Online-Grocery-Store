@@ -1,5 +1,5 @@
 import React from "react";
-import Item from "../../Item";
+import Item from "../Item";
 import {BrowserRouter as Router} from "react-router-dom";
 
 function MeatCategory() {
