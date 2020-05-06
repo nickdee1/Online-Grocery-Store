@@ -14,12 +14,8 @@ function Header() {
 
             <div className="dropdown">
                 <Router>
-                    <Button
-                        className="header-button">
+                    <Button className="header-button">
                         Cart
-                        <Router>
-                            <Route exact path='/cart' component={Cart}/>
-                        </Router>
                     </Button>
                 </Router>
 
