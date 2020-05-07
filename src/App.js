@@ -9,7 +9,7 @@ import DrinksCategory from "./components/categories/DrinksCategory";
 import Subheader from "./components/Subheader";
 import LogIn from "./components/logIn/LogIn";
 import Register from "./components/register/Register";
-
+import UserInfo from "./components/userInfo/UserInfo";
 import {BrowserRouter as Router, Switch, Route} from "react-router-dom";
 
 
@@ -27,6 +27,7 @@ function App() {
                   <Route path='/categories/drinks' component={DrinksCategory}/>
                   <Route path='/login' component={LogIn}/>
                   <Route path='/register' component={Register}/>
+                  <Route path='/userInfo' component={UserInfo}/>
             </Switch>
         </Router>
     </div>

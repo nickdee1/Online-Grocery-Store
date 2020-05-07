@@ -9,6 +9,8 @@ function MeatCategory() {
 
             <div className="app">
                 <Item itemName="Beef" price="200"/>
+                <Item itemName="Beef" price="200"/>
+                <Item itemName="Beef" price="200"/>
             </div>
         </div>
     );
