@@ -1,0 +1,30 @@
+.cart-page {
+    padding-left: 20px;
+    padding-right: 20px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.cart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.totals {
+    display: flex;
+    justify-content: space-between;
+    width: 60%;
+    align-self: center;
+}
+
+.submit-button {
+    width: 100px;
+    height: 40px;
+    border-style: none;
+    border-radius: 12px;
+    background-color: #649d66;
+    font-size: 18px;
+    color: white;
+}

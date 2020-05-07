@@ -1,0 +1,19 @@
+.item-placed {
+    background-color: #ededed;
+    padding-right: 10px;
+    padding-left: 10px;
+    width: 60%;
+    height: 150px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.counter-block {
+    width: 100px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
