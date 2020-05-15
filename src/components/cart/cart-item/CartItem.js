@@ -1,10 +1,10 @@
 import React from "react";
 import './CartItem.css'
 
-function CartItem({name, price, picture}) {
+function CartItem({name, price, id}) {
     return(
             <div className="item-placed">
-                <img src={process.env.PUBLIC_URL + "/img/meat.jpg"} style={{width: "20%", height: "80%"}}/>
+                <img src={process.env.PUBLIC_URL + "/img/" + id + ".jpg"} style={{width: "20%", height: "80%"}}/>
                 <h5>{name}</h5>
 
                 <div className="counter-block">
