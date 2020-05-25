@@ -44,6 +44,7 @@ class MeatCategory extends React.Component {
 
                     <div className="app">
 
+                        <Item itemName="Beef" price="200" id='1'/>
                         {items.map(item => (
                             <Item itemName={item.name} price={item.price} id={item.id}/>
                         ))}
